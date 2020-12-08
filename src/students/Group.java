@@ -26,9 +26,6 @@ public class Group implements Serializable {
 		super();
 		this.nameGroup = nameGroup;
 	}
-	
-	
-	
 
 	public Stud[] getGroup() {
 		return group;
@@ -45,7 +42,6 @@ public class Group implements Serializable {
 	public void setNameGroup(String nameGroup) {
 		this.nameGroup = nameGroup;
 	}
-	
 
 	@Override
 	public String toString() {
