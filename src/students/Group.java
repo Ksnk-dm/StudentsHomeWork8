@@ -53,7 +53,7 @@ public class Group implements Serializable {
 		for (int i = 0; i < group.length; i++) {
 			if (group[i] == null) {
 				group[i] = st;
-				System.out.println("студент " + st + " добавлен");
+				System.out.println("Student " + st + " added");
 				return;
 
 			}
